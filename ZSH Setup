@@ -87,4 +87,4 @@ source $ZSH/oh-my-zsh.sh
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
- alias gocode="cd /Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src"
+ alias gocode="cd /Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/"
