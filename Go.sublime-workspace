@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"new",
+				"NewServeMux	*http.ServeMux ƒ"
+			],
+			[
+				"elb",
+				"elbstatus	string ν"
+			],
+			[
+				"res",
+				"responseProcessingTime	string ν"
+			],
+			[
+				"re",
+				"req	float64 ν"
+			],
+			[
+				"tim",
+				"time3	 ν"
+			],
+			[
+				"bac",
+				"backendProcessingTime	string ν"
+			],
+			[
+				"ar",
+				"Args	[]string ƒ"
+			],
+			[
+				"e",
+				"err	error ν"
+			],
+			[
+				"print",
+				"println	 ƒ"
+			],
+			[
 				"main",
 				"func main	func main {...} ʂ"
 			],
@@ -51,24 +87,8 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/interceptor/service.go",
-			"settings":
-			{
-				"buffer_size": 504,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/closures/closure.go",
-			"settings":
-			{
-				"buffer_size": 281,
-				"line_ending": "Unix"
-			}
-		}
 	],
-	"build_system": "Packages/Golang Build/Go.sublime-build",
+	"build_system": "Packages/Rust/Rust.sublime-build",
 	"build_system_choices":
 	[
 		[
@@ -102,18 +122,38 @@
 				"Packages/Golang Build/Go.sublime-build",
 				"Run"
 			]
+		],
+		[
+			[
+				[
+					"Packages/Rust/Rust.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Rust.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/Rust/Rust.sublime-build",
+				"Run"
+			]
 		]
 	],
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 308.0,
-		"last_filter": "packa",
+		"height": 392.0,
+		"last_filter": "pa",
 		"selected_items":
 		[
 			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
 				"packa",
-				"Package Control: Remove Package"
+				"Package Control: Install Package"
 			],
 			[
 				"GoSublime: ",
@@ -140,7 +180,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 417.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -165,12 +205,56 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym",
-		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples",
-		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/interceptor"
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym"
 	],
 	"file_history":
 	[
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/pocket/main.go",
+		"/Users/davidmcg/Downloads/pocket-master/pocket/pocket.py",
+		"/Users/davidmcg/Downloads/pocket-master/pocket.py",
+		"/Users/davidmcg/Dropbox/Github/pocket/pocket",
+		"/Users/davidmcg/Dropbox/Github/main.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/select/select.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/websockets/connection.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/websockets/index.html",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/websockets/hub.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/websockets/server.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/restapi/main.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/grep_elb/grep_elb.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/benchmarking/string_concat.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/benchmarking/string_concat_test.go",
+		"/Users/davidmcg/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/logsip/logsip.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/logger/logsip.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/channel_direction/channel_direction.go",
+		"/Users/davidmcg/Dropbox/Github/rustcode/guessing_game/src/main.rs",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/rust/main.rs",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/rust/helloworld/Cargo.toml",
+		"/Users/davidmcg/Library/Application Support/Sublime Text 3/Packages/User/RustAutoComplete.sublime-settings",
+		"/Users/davidmcg/Library/Application Support/Sublime Text 3/Packages/User/RustCodeFormatter.sublime-settings",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/channel_sync/channelsync.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/channel_buffers/channelbuffers.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/channels/channels.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/grep_elb/results.golang",
+		"/Users/davidmcg/Dropbox/Github/dig-scriptogram/elb/README.md",
+		"/Users/davidmcg/Dropbox/Github/dig-scriptogram/elb/results.ruby",
+		"/Users/davidmcg/Dropbox/Github/dig-scriptogram/elb/results.perl",
+		"/Users/davidmcg/Dropbox/Github/dig-scriptogram/elb/grep_elb.pl",
+		"/Users/davidmcg/Dropbox/Github/dig-scriptogram/elb/grep_elb.go",
+		"/Users/davidmcg/Dropbox/Github/dig-scriptogram/elb/result.perl",
+		"/Users/davidmcg/Dropbox/Github/dig-scriptogram/elb/small.log",
+		"/Users/davidmcg/Dropbox/Github/dig-scriptogram/elb/result.js",
+		"/Users/davidmcg/Dropbox/Github/dig-scriptogram/elb/result.rb",
+		"/Users/davidmcg/Dropbox/Github/dig-scriptogram/elb/rb-result.txt",
+		"/Users/davidmcg/Dropbox/Github/dig-scriptogram/elb/js-result.txt",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/flags/flags.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/errors/errors.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/saml/gosaml.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/waitgroup/waitgroup.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/goroutines/goroutine.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/goroutines/package main",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/closures/closure.go",
+		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/interceptor/service.go",
 		"/Users/davidmcg/Library/Application Support/Sublime Text 3/Packages/User/GoSublime.sublime-settings",
 		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/closures/closure.go",
 		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/arrays/arrays.go",
@@ -206,7 +290,6 @@
 		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/bin/helloworld",
 		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/package/Result.go",
 		"/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/helloworld/hello.go",
-		"/Users/davidmcg/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/davidmcg/Library/Application Support/Sublime Text 3/Packages/GoSublime/README.md",
 		"/Users/davidmcg/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
 		"/Users/davidmcg/Downloads/RetentionDisposalStandards.ods",
@@ -220,7 +303,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 47.0
 	},
 	"find_in_files":
 	{
@@ -234,6 +317,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			")\n",
+			"package main\n\nimport (\n	\"bufio\"\n	\"flag\"\n	\"fmt\"\n	\"os\"\n	\"strconv\"\n	\"strings\"\n)\n\nfunc parseLine(path string) ([]string, error) {\n	file, err := os.Open(path)\n	if err != nil {\n		return nil, err\n	}\n	defer file.Close()\n\n	var lines []string\n	scanner := bufio.NewScanner(file)\n	for scanner.Scan() {\n		lines = append(lines, scanner.Text())\n	}\n\n	return lines, err\n}\n\nfunc parseElblogfile(t1 *bool, t2 *bool, t3 *bool, threshold *int, debug *bool, verbose *bool, filename string) {\n\n	var time1, time2, time3 = \"-\", \"-\", \"-\"\n	lines, err := parseLine(filename)\n\n	if err != nil {\n		fmt.Println(err)\n	} else {\n		for _, line := range lines {\n			items := strings.Split(line, \" \")\n			date, elb, clientip, referrer, requestProcessingTime, backendProcessingTime, responseProcessingTime, elbstatus, backendstatus, rbytes, sbytes, verb, url := items[1], items[2], items[3], items[4], items[5], items[6], items[7],\n				items[8], items[9], items[10], items[11], items[12], items[13]\n\n			println(\"Line values: \", date, elb, clientip, referrer, requestProcessingTime, backendProcessingTime, responseProcessingTime, elbstatus, backendstatus, rbytes, sbytes, verb, url)\n			println(\"Request: \", requestProcessingTime)\n			println(\"Backend: \", backendProcessingTime)\n			println(\"Response: \", responseProcessingTime)\n			println(time1, time2, time3)\n\n			rsp, err := strconv.ParseFloat(requestProcessingTime, 64)\n\n			if *t1 && (rsp > float64(*threshold) && err != nil) {\n				time1 = requestProcessingTime\n				println(\"TIME 1\", time1)\n			}\n\n			return\n\n		}\n	}\n\n}\n\nfunc main() {\n\n	t1 := flag.Bool(\"i\", false, \"Compare time of elb internal processing time (sec). Defaults if none specified.\")\n	t2 := flag.Bool(\"b\", false, \"Compare time of backend processing time (sec). Defaults if none specified.\")\n	t3 := flag.Bool(\"r\", false, \"Compare time of response processing time (sec). Defaults if none specified.\")\n\n	t := flag.Int(\"t\", 1, \"n in seconds of time threshold to compare against. Default is 1 sec.\")\n	d := flag.Bool(\"d\", false, \"-d,  Display debug information.\")\n	v := flag.Bool(\"v\", false, \"-v,  Display whole log statement in results.\")\n\n	flag.Parse()\n\n	for _, fn := range flag.Args() {\n		if *d == true {\n			println(fn)\n		}\n\n		parseElblogfile(t1, t2, t3, t, d, v, fn)\n	}\n\n}\n",
+			".\")\n",
+			"\",",
+			"'",
 			";",
 			"` TO 'moth_user'@'10.10.%'",
 			"` TO 'moth_user'@'10.10.%'       ",
@@ -249,6 +337,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"\"",
 			"\\n",
 			"",
 			"\\n",
@@ -263,67 +352,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/interceptor/service.go",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 504,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/closures/closure.go",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 281,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								171,
-								171
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -333,7 +363,7 @@
 	},
 	"input":
 	{
-		"height": 32.0
+		"height": 63.0
 	},
 	"layout":
 	{
@@ -358,9 +388,77 @@
 		]
 	},
 	"menu_visible": true,
+	"output.9o:///Users/davidmcg/Dropbox/Github":
+	{
+		"height": 132.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/dig-scriptogram/elb":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/benchmarking":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/channel_buffers":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/channel_direction":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/channel_sync":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/channels":
+	{
+		"height": 98.0
+	},
 	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/closures":
 	{
 		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/errors":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/flags":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/goroutines":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/logger":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/restapi":
+	{
+		"height": 132.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/saml":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/select":
+	{
+		"height": 132.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/waitgroup":
+	{
+		"height": 98.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/examples/websockets":
+	{
+		"height": 132.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/grep_elb":
+	{
+		"height": 154.0
 	},
 	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/helloworld":
 	{
@@ -370,9 +468,21 @@
 	{
 		"height": 98.0
 	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/logsip":
+	{
+		"height": 223.0
+	},
 	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/package":
 	{
 		"height": 164.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/pocket":
+	{
+		"height": 132.0
+	},
+	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/pocket-cmd":
+	{
+		"height": 132.0
 	},
 	"output.9o:///Users/davidmcg/Dropbox/Github/gocode/src/github.com/daveym/src/arrays":
 	{
@@ -462,6 +572,10 @@
 	{
 		"height": 223.0
 	},
+	"output.exec":
+	{
+		"height": 86.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -478,7 +592,7 @@
 	"project": "Go.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 90.0
 	},
 	"save_all_on_build": true,
 	"select_file":
